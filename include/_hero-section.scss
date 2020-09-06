@@ -1,0 +1,53 @@
+.hero-section {
+  background-image: url("../asset/landing-img.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+
+    .col-12 {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding-top: 14rem;
+      min-height: 90vh;
+      color: rgb(0, 0, 0);
+
+      .btn {
+        margin-right: 0.7rem;
+        padding: 0.4rem 1.8rem;
+
+        &:hover {
+          // background: white;
+
+          span {
+            color: #111;
+          }
+        }
+      }
+
+      .apple {
+        font-size: 1.1rem;
+        padding: 0.6rem 2.5rem;
+        background-image: linear-gradient(
+          to right,
+          #f3835da6 0%,
+          #fa5421fa 100%
+        );
+        &:hover {
+          background-position: right left;
+        }
+      }
+
+      .google {
+        font-size: 1.1rem;
+        padding: 0.6rem 2.5rem;
+        background: white;
+        color: #111 !important;
+      }
+    }
+  }
+}

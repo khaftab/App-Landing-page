@@ -1,0 +1,48 @@
+//  Variables
+
+$inter: "Inter";
+$nun: "Nunito";
+$purple: #6930c3;
+
+// Global class name
+
+.font-nun {
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.font-size-1 {
+  font-size: 0.8rem;
+}
+
+.font-size-2 {
+  font-size: 1.9rem;
+}
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+.width-lg-50 {
+  @media screen and (min-width: 992px) {
+    width: 40%;
+  }
+}
+
+.left-border {
+  border-left: 8px solid #20c997;
+  padding-left: 1rem;
+}
+
+.img-hover {
+  overflow: hidden;
+
+  img {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

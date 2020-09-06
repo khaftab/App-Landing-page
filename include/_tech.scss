@@ -1,0 +1,57 @@
+.tech {
+  // padding: 0 3rem !important;
+  background: url("../asset//site_background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.glide {
+  .item {
+    .img-hover {
+      display: flex;
+      justify-content: center;
+    }
+
+    .item-title {
+      a {
+        text-decoration: none;
+        color: #222;
+      }
+
+      .d-flex {
+        > .rounded-pill {
+          width: 30px !important;
+          margin-right: 0.5rem;
+        }
+
+        a,
+        i,
+        span {
+          padding: 0.2rem;
+          text-decoration: none;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  .glide__arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+      margin-right: 0.5rem;
+      border: none;
+      outline: none;
+      background: rgba(128, 127, 127, 0.13);
+      padding: 0.3rem 2.8rem;
+      font-size: 14px;
+
+      &:hover {
+        background: rgba(17, 17, 17, 0.712);
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.security {
+  background-color: #343a40;
+  color: white;
+  margin: 4rem 0;
+
+  .title h3,
+  .title a {
+    color: white !important;
+  }
+
+  .item h5 {
+    color: white;
+  }
+
+  .d-flex a,
+  .d-flex span {
+    color: white !important;
+  }
+
+  .glide__arrows button {
+    background: #fff;
+    color: #000;
+  }
+}

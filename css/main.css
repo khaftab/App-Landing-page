@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap");
+.font-nun {
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.font-size-1 {
+  font-size: 0.8rem;
+}
+
+.font-size-2 {
+  font-size: 1.9rem;
+}
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+  .width-lg-50 {
+    width: 40%;
+  }
+}
+
+.left-border {
+  border-left: 8px solid #20c997;
+  padding-left: 1rem;
+}
+
+.img-hover {
+  overflow: hidden;
+}
+
+.img-hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.img-hover img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body {
+  font-family: "Inter";
+}
+
+body .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#header .navbar-collapse .nav-link,
+#header .navbar-collapse .btn {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  color: white;
+}
+
+#header .navbar-toggler-icon {
+  color: white !important;
+}
+
+#header .download {
+  background-image: -webkit-gradient(linear, left top, right top, from(#faafa0), to(#f5772e));
+  background-image: linear-gradient(to right, #faafa0 0%, #f5772e 100%);
+  border: none;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #6930c3 !important;
+  }
+  .navbar-toggler {
+    margin-right: 2.3rem !important;
+  }
+  .navbar-brand {
+    margin-left: 2.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-toggler {
+    margin-right: 1.3rem !important;
+  }
+  .navbar-brand {
+    margin-left: 1.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-toggler {
+    margin-right: 1.3rem !important;
+  }
+  .navbar-brand {
+    margin-left: 1.3rem !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .my-container {
+    max-width: 992px !important;
+    margin: 0 auto;
+  }
+}
+
+.hero-section {
+  background-image: url("../asset/landing-img.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero-section .row .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding-top: 14rem;
+  min-height: 90vh;
+  color: black;
+}
+
+.hero-section .row .col-12 .btn {
+  margin-right: 0.7rem;
+  padding: 0.4rem 1.8rem;
+}
+
+.hero-section .row .col-12 .btn:hover span {
+  color: #111;
+}
+
+.hero-section .row .col-12 .apple {
+  font-size: 1.1rem;
+  padding: 0.6rem 2.5rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f3835da6), to(#fa5421fa));
+  background-image: linear-gradient(to right, #f3835da6 0%, #fa5421fa 100%);
+}
+
+.hero-section .row .col-12 .apple:hover {
+  background-position: right left;
+}
+
+.hero-section .row .col-12 .google {
+  font-size: 1.1rem;
+  padding: 0.6rem 2.5rem;
+  background: white;
+  color: #111 !important;
+}
+
+.tech {
+  background: url("../asset//site_background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.glide .item .img-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.glide .item .item-title a {
+  text-decoration: none;
+  color: #222;
+}
+
+.glide .item .item-title .d-flex > .rounded-pill {
+  width: 30px !important;
+  margin-right: 0.5rem;
+}
+
+.glide .item .item-title .d-flex a,
+.glide .item .item-title .d-flex i,
+.glide .item .item-title .d-flex span {
+  padding: 0.2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.glide .glide__arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.glide .glide__arrows button {
+  margin-right: 0.5rem;
+  border: none;
+  outline: none;
+  background: rgba(128, 127, 127, 0.13);
+  padding: 0.3rem 2.8rem;
+  font-size: 14px;
+}
+
+.glide .glide__arrows button:hover {
+  background: rgba(17, 17, 17, 0.712);
+  color: white;
+}
+
+.security {
+  background-color: #343a40;
+  color: white;
+  margin: 4rem 0;
+}
+
+.security .title h3,
+.security .title a {
+  color: white !important;
+}
+
+.security .item h5 {
+  color: white;
+}
+
+.security .d-flex a,
+.security .d-flex span {
+  color: white !important;
+}
+
+.security .glide__arrows button {
+  background: #fff;
+  color: #000;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.footer .company .d-flex a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+}
+
+.footer .company .d-flex a:hover {
+  color: #6930c3;
+}
+
+.footer .newsletter {
+  padding: 3rem;
+}
+
+.footer .newsletter .d-flex input {
+  border: none;
+  width: 200px;
+  font-size: 1rem;
+  margin: 0.8rem 0;
+  background-color: #f8f9fa;
+  border-radius: 4rem;
+}
+
+.footer .newsletter .d-flex input::-webkit-input-placeholder {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.footer .newsletter .d-flex input:-ms-input-placeholder {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.footer .newsletter .d-flex input::-ms-input-placeholder {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.footer .newsletter .d-flex input::placeholder {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.footer .newsletter button {
+  background-color: #343a40;
+  color: white;
+  padding: 0.3rem 1.5rem;
+  border-radius: 4rem;
+  font-size: 0.8rem;
+}
+
+.footer .newsletter button:hover {
+  background: #6930c3;
+}
+/*# sourceMappingURL=main.css.map */

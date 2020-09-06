@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "This is a lanidng page design using html css and bootstrap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaftab/app-landing-page.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Kh Aftabuddin Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaftab/app-landing-page/issues"
+  },
+  "homepage": "https://github.com/khaftab/app-landing-page#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@glidejs/glide": "^3.4.1"
+  }
+}
