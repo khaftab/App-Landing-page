@@ -74,6 +74,10 @@ body .top {
   border: none;
 }
 
+#header .navbar-nav a:hover {
+  color: #000;
+}
+
 @media screen and (max-width: 992px) {
   .navbar-collapse {
     background-color: #6930c3 !important;

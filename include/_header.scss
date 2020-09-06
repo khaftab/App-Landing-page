@@ -28,6 +28,10 @@ body {
     background-image: linear-gradient(to right, #faafa0 0%, #f5772e 100%);
     border: none;
   }
+
+  .navbar-nav a:hover {
+    color: #000;
+  }
 }
 
 @media screen and (max-width: 992px) {
